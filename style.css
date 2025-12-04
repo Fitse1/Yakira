@@ -41,17 +41,24 @@ body {
 }
 
 .logo {
-  width: 150px;  /* set desired width */
-  height: auto;  /* keeps aspect ratio */
+  width: auto;  /* set desired width */
+  height: 100px;  /* keeps aspect ratio */
 }
 #header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 80px;
+    padding: 8px 30px;     
+
     background: #E3E6F3;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
+
 #navbar {
     display: flex;
     align-items: center;
@@ -84,4 +91,33 @@ body {
     position: absolute;
     bottom: -4px;
     left: 20px;
+}
+#hero{
+  background-image: url('img/hero4.png');
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% left 0%;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#hero h4 {
+  padding-bottom: 15px;
+}
+#hero h1 {
+  color: #088176;
+}
+#hero button {
+  background-color: transparent;
+  background-image: url("img/button.png");
+  color: #088176;
+  padding: 14px 80px 14px 65px;
+  border: 0;
+  background-repeat: no-repeat;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
 }
