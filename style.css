@@ -49,6 +49,18 @@ button.normal {
   outline: none;
   transition: 0.2s ease;
 }
+button.white {
+  padding: 11px 18px;
+  background-color:transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
 body {
     width: 100%;
 }
@@ -273,4 +285,83 @@ color:#ef3636;
 #banner button:hover {
   background-color: #088176;
   color: #fff;
+}
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#sm-banner .banner-box {
+  background-image: url('img/banner/b17.jpg');
+  height: 50vh;
+  min-width: 540px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: #fff;
+  padding:30px;
+}
+#sm-banner .banner-box2 {
+  background-image: url('img/banner/b10.jpg');
+  
+}
+#sm-banner .banner-box h4 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300;
+}
+#sm-banner .banner-box h2 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+#sm-banner span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+#sm-banner .banner-box:hover button {
+  background-color: #088176;
+  color: #fff;
+  border: 1px solid #088176;
+}
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding:0 80px;
+}
+#banner3 .banner-box{
+  background-image: url('img/banner/b7.jpg');
+  height: 30vh;
+  min-width: 30%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: #fff;
+  padding:20px;
+  margin-bottom: 20px;
+}
+#banner3 .banner-box2 {
+  background-image: url('img/banner/b4.jpg');
+}
+#banner3 .banner-box3 {
+ background-image: url('img/banner/b18.jpg');
+}
+#banner3 h2 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 900;
+}
+#banner3 h3 {
+  color: #ec544e;
+  font-size: 15px;
+  font-weight: 800;
 }
